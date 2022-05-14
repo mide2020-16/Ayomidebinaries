@@ -1,0 +1,130 @@
+DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>BOOKINGS PAGE</title>
+  </head>
+  <style>
+  body.body{background-color:#003300;}
+    .p{text-align: center;
+      font-size: 40px;
+      
+    }
+    .CarrotEvents {
+        text-align: center;
+        border: 2px;
+        padding: 40px;
+        background-color: #9e5408;
+        color: green;
+        font-size: 35px;
+        margin: 1%;
+        border-radius: 1em;
+        font-family: Monospace;
+        margin-bottom: 2%;
+        border-style: solid;
+        background: linear-gradient( to right, #a85400 1%, #1a1a1a 90%)
+    }
+   p1{font-size: 30px;
+     color:#0004ff;
+   }
+   p1 a:active{color:#f13425;}
+   p1 a:hover{color:#05dd71;}
+   /*footer*/
+   .footer{text-align: center;
+   padding:5px;
+   border-bottom:0px;
+   background-color:#fed174;
+     color:#694e28;
+     bottom: 0%;
+     margin-top: 100%;
+     width: 100%;
+   }
+   input{width: 100%;}
+   .btn{padding:0 100px;
+     
+   }
+.   .des {
+        margin: 30px;
+        color: blue;
+        text-align: left;
+        font-size: 1000px;
+        text-align: center;
+        font-size: 30px;
+    }
+  </style>
+  <body class="body">
+      <br />
+      <br />
+    
+    <h1 class="CarrotEvents">
+      &lt CarrotCoders &gt
+    </h1>
+    <h2>
+     <p>
+    <br />
+    <br />
+     </p> 
+    </h2>
+    <br />
+    <br />
+    <h3 class="des">Bookings</h3>
+    <br />
+    <br />
+     <form>
+       <label>
+         
+       </label>
+       <input type="text" placeholder="Full Name" class="b" required=""/>
+       <br />
+       <br />
+       <label for="phonenumber"></label>
+       <input type="tel" placeholder="Phone Number" required=""/>
+       <br />
+       <br />
+       <label for="email"></label>
+       <input type="email" placeholder="Email" required=""/>
+       <br />
+       <br />
+       <label for="location"></label>
+       <input type="text" placeholder="Client's Location" required=""/>
+       <br />
+       <br />
+       <label for="Type">Types of Service</label>
+       <br />
+       <select>
+         <option value=""/>None</option>
+         <option value="JavaScript"/> Javascript</option>
+                  <option value="Css"/>CSS</option>
+         <option value="Node.js"/>Node.js</option>
+       </select>
+       <br />
+       <br />
+       <div class="btn">
+       <button><a href="www.netnaija.com">Submit</a></button>
+       <br />
+       <br />
+       <br />
+       <br />
+       </div>
+     </form>
+    <p1>
+        <em>Learn more
+        <a href="about.html">About</a> 
+        CarrotCoders</em>
+    </p1>
+    <br />
+    <br />
+<p1>You can <a href="contact.html"><em>Contact Us</em></a></p1>
+  </body>
+  <br />
+  <br />
+  <p1>Check our <a href="schedule.html"><i>schedules</i></a></p1>
+  <footer>
+  <div class="footer">
+    <strong>
+    <h4>&copy:Copyright 2022,All Right Reserved</h4>
+    <h4>Developed by Farati</h4>
+    </strong>
+    </div>
+  </footer>
+</html>
